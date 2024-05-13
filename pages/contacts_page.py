@@ -24,11 +24,11 @@ class ContactsPage(BasePage):
 
     @allure.step("Проверяем автоматическое определение региона")
     def check_region(self):
-        assert self.get_text_from_element(ContactsLocators.region) == data.region
+        assert self.get_text_from_element(ContactsLocators.region) == data.REGION
 
     @allure.step("Проверяем наличие партнеров")
     def check_partners(self):
-        assert self.get_text_from_element(ContactsLocators.partners) == data.partners
+        assert self.get_text_from_element(ContactsLocators.partners) == data.PARTNERS
 
     @allure.step("Меняем регион на камчатский край")
     def click_change_region(self):

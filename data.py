@@ -3,5 +3,5 @@ class DataUrl:
     TENZOR = 'https://tensor.ru/'
     ABOUT = 'about'
 
-region = "Самарская обл."
-partners = "СБИС - Самара"
+REGION = "Самарская обл."
+PARTNERS = "СБИС - Самара"
